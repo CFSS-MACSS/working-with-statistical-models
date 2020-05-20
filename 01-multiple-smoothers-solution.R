@@ -72,7 +72,9 @@ p_gam <- p +
 p_lm +
   p_lm_2 +
   p_gam +
+  # align the graphs vertically
   plot_layout(ncol = 1) +
+  # add an overall title and subtitle to the combined plot
   plot_annotation(
     title = "2016 U.S. presidential election",
     subtitle = "By county"
